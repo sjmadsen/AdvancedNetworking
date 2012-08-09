@@ -1,0 +1,3 @@
+[submodule "PubSub/FayeObjC"]
+	path = PubSub/FayeObjC
+	url = https://github.com/lightyear/FayeObjC.git

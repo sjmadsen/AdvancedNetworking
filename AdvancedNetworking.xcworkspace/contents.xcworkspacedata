@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PubSub/PubSub.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimpleEcho/SimpleEcho.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BonjourEcho/BonjourEcho.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GameKitChat/GameKitChat.xcodeproj">
+   </FileRef>
+</Workspace>
