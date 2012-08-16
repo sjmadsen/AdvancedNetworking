@@ -1,4 +1,5 @@
-This is the demo code for my Advanced Cocoa Networking talk.
+This is the demo code for my Advanced Cocoa Networking talk. The slides are
+available at https://speakerdeck.com/u/sjmadsen/p/advanced-cocoa-networking.
 
 PubSub shows how to run a Faye Ruby server and subscribe to messages sent to
 a channel from within an iOS app.
