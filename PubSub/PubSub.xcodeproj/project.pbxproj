@@ -32,6 +32,7 @@
 		AA4883AB15D3F9B1001E27C7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4883AA15D3F9B1001E27C7 /* CFNetwork.framework */; };
 		AA4883AD15D3F9BC001E27C7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4883AC15D3F9BC001E27C7 /* Security.framework */; };
 		AA4883AF15D3FA7D001E27C7 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4883AE15D3FA7D001E27C7 /* libicucore.dylib */; };
+		AA61553717F4AFE500CB8CA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA61553617F4AFE500CB8CA0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		AA4883AA15D3F9B1001E27C7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AA4883AC15D3F9BC001E27C7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AA4883AE15D3FA7D001E27C7 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		AA61553617F4AFE500CB8CA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				AA48836E15D3F4E2001E27C7 /* MainStoryboard.storyboard */,
 				AA48837115D3F4E2001E27C7 /* ViewController.h */,
 				AA48837215D3F4E2001E27C7 /* ViewController.m */,
+				AA61553617F4AFE500CB8CA0 /* Images.xcassets */,
 			);
 			path = PubSub;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA61553717F4AFE500CB8CA0 /* Images.xcassets in Resources */,
 				AA48836715D3F4E2001E27C7 /* InfoPlist.strings in Resources */,
 				AA48837015D3F4E2001E27C7 /* MainStoryboard.storyboard in Resources */,
 			);
@@ -384,6 +388,8 @@
 		AA48837715D3F4E2001E27C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PubSub/PubSub-Prefix.pch";
 				INFOPLIST_FILE = "PubSub/PubSub-Info.plist";
@@ -395,6 +401,8 @@
 		AA48837815D3F4E2001E27C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PubSub/PubSub-Prefix.pch";
 				INFOPLIST_FILE = "PubSub/PubSub-Info.plist";
