@@ -13,4 +13,7 @@
    <FileRef
       location = "group:GameKitChat/GameKitChat.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:PeerThroughput/PeerThroughput.xcodeproj">
+   </FileRef>
 </Workspace>
