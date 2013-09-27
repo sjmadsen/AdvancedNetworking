@@ -85,7 +85,7 @@
     }
     else
     {
-        /* If _writeBuffer isn't nil, then append this new message to what's
+        /* If _writeBuffer isn't empty, then append this new message to what's
          * already waiting. */
         [_writeBuffer addObject:stringData];
     }
